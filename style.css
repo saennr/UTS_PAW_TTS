@@ -1,0 +1,68 @@
+body {
+  background-color: #55a5eb; /* Ubah sesuai warna background yang diinginkan */
+  /* background-image: url('background.jpg'); */ /* Atau gunakan gambar */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.logo-tabel-container {
+  display: flex;
+  align-items: flex-start; /* Menyelaraskan logo dengan tabel di atas */
+}
+
+.logo {
+  width: 100px; /* Atur ukuran logo */
+  margin-right: 15px; /* Jarak antara logo dan tabel */
+}
+
+table {
+	text-align: center;
+}
+.tabel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+td {
+	width: 40px;
+	height: 40px;
+}
+
+td input {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.block {
+	background-color: #55a5eb;
+}
+
+.btn-primary {
+  background-color: #c9599e; /* Ganti dengan warna yang diinginkan */
+  border-color: #c9599e;
+}
+.btn-primary:hover {
+  background-color: #f9b5e3; /* Warna saat hover */
+  border-color: #f9b5e3;
+}
+.btn-primary:active {
+  background-color: #922f6c;
+  border-color: #922f6c;
+}
+.btn-success {
+  background-color: #c9599e;
+  border-color: #c9599e;
+}
+.btn-success:hover {
+  background-color: #c07caa;
+  border-color: #f9b5e3;
+}
